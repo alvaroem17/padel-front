@@ -8,6 +8,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+:root {
+  --primary-yellow: #CCFF00;
+  --primary-black: #070808;
+  --primary-white: #FFFFFF;
+  --primary-gray: #141414;
+}
+
 @theme inline {
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
