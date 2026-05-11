@@ -13,6 +13,7 @@
   --primary-black: #070808;
   --primary-white: #FFFFFF;
   --primary-gray: #141414;
+  --secondary-gray: #9A9A9A;
 }
 
 @theme inline {

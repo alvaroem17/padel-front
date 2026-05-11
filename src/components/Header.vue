@@ -1,9 +1,6 @@
 <template>
   <div class="w-full h-20 bg-(--primary-black) text-white flex items-center justify-between px-8">
-    <div class="flex items-center space-x-2">
-      <section class="w-8 h-8 bg-(--primary-yellow) text-(--primary-black) text-center leading-8 font-bold">VP</section>
-      <p class="text-xl font-black tracking-tighter">VOLT<span class="text-(--primary-yellow)">PADEL</span></p>
-    </div>
+    <Logo />
     <nav class="space-x-4">
       <a href="/" class="hover:text-(--primary-yellow)">INICIO</a>
       <a href="/canchas" class="hover:text-(--primary-yellow)">CANCHAS</a>
@@ -21,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+import Logo from './Logo.vue';
 import Button from './ui/button/Button.vue';
 
 
