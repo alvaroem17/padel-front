@@ -16,16 +16,31 @@
           <Button class="ml-4 bg-transparent border-2 font-bold border-primary-yellow rounded-none text-primary-yellow py-6 hover:bg-primary-yellow hover:text-primary-black">Ver canchas</Button>
         </div>
       </div>
-      <div>
-        bar
+      <div class="w-full flex justify-around bg-black-gradient border-t border-secondary-gray/10 text-secondary-gray px-8 py-6">
+        <div>
+          <h1 class="text-4xl font-extrabold text-primary-yellow">4</h1>
+          <p>Canchas premium</p>
+        </div>
+        <div>
+          <h1 class="text-4xl font-extrabold text-primary-yellow">16h</h1>
+          <p>Disponibles al día</p>
+        </div>
+        <div>
+          <h1 class="text-4xl font-extrabold text-primary-yellow">&lt60s</h1>
+          <p>En reservar</p>
+        </div>
+        <div>
+          <h1 class="text-4xl font-extrabold text-primary-yellow">24/7</h1>
+          <p>Reservas online</p>
+        </div>
       </div>
-      <div>
+      <div class="w-full bg-secondary-black border-t border-secondary-gray/10">
         why
       </div>
-      <div>
+      <div class="w-full bg-tertiary-black border-t border-secondary-gray/10">
         how
       </div>
-      <div>
+      <div class="w-full bg-secondary-black border-t border-secondary-gray/10">
         ready to play
       </div>
     </div>

@@ -16,11 +16,16 @@
     background-size: cover;
     background-position: center;
   }
+  .bg-black-gradient{
+    background: linear-gradient(180deg, #141414 0%, #000 100%);
+  }
 }
 
 @theme {
   --color-primary-yellow: #CCFF00;
   --color-primary-black: #070808;
+  --color-secondary-black: #0A0A0A;
+  --color-tertiary-black: #0E0E0E;
   --color-primary-white: #FFFFFF;
   --color-primary-gray: #141414;
   --color-secondary-gray: #9A9A9A;

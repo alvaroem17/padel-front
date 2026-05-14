@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-76 bg-primary-black text-secondary-gray text-xs flex items-center justify-center px-6 py-12 border-t border-secondary-gray gap-8">
+  <div class="w-full h-76 bg-primary-black text-secondary-gray text-xs flex items-center justify-center px-6 py-12 border-t border-secondary-gray/10 gap-8">
     <div class="sm:w-[40%] w-[50%] h-full flex flex-col items-start justify-start gap-4">
       <Logo />
       <p>Reserva tu cancha de pádel en segundos. Disponibilidad en tiempo real, canchas premium y la mejor experiencia deportiva.</p>
