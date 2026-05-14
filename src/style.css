@@ -8,12 +8,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
-:root {
-  --primary-yellow: #CCFF00;
-  --primary-black: #070808;
-  --primary-white: #FFFFFF;
-  --primary-gray: #141414;
-  --secondary-gray: #9A9A9A;
+@layer utilities{
+  .bg-radial-court{
+    background-image:
+      radial-gradient(circle, rgba(0, 0, 0, 0.500) 0%, black 100%),
+      url('/img/canchaPadel2000x700.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@theme {
+  --color-primary-yellow: #CCFF00;
+  --color-primary-black: #070808;
+  --color-primary-white: #FFFFFF;
+  --color-primary-gray: #141414;
+  --color-secondary-gray: #9A9A9A;
 }
 
 @theme inline {
